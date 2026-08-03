@@ -482,6 +482,60 @@ Track day-by-day progress in [`execution-tracker.html`](./execution-tracker.html
 
 ---
 
+## Support the roadmap
+
+Super QR is developed and maintained on a **self-funded basis**. Every contribution goes directly toward the next milestones on the roadmap above:
+
+- **Sprint 5** — SAML SSO + SCIM provisioning, full Hindi / Marathi / Tamil localisation, Salesforce & Freshsales connectors, bandit-based A/B testing
+- **Sprint 6** — Native iOS + Android apps, Shiprocket & Delhivery integrations, approval workflows, multi-region data residency
+- **Sprint 7** — SaaS operator admin panel (multi-tenant control plane, subprocessors, feature flags, execution days)
+
+If your organisation uses Super QR, or you'd like to see any of these ship sooner, please consider backing the project:
+
+<div align="center">
+
+<a href="https://github.com/sponsors/sauravart">
+  <img src="https://img.shields.io/badge/Sponsor%20on%20GitHub-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub" />
+</a>
+<a href="https://www.paypal.com/donate?business=sauravart@gmail.com&currency_code=USD&item_name=Support%20Super%20QR%20development">
+  <img src="https://img.shields.io/badge/Donate%20via%20PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white" alt="Donate via PayPal" />
+</a>
+<a href="https://buymeacoffee.com/sauravart">
+  <img src="https://img.shields.io/badge/Buy%20me%20a%20chai-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy me a chai" />
+</a>
+
+<br/>
+
+<sub>Sponsorship funds are ring-fenced for platform development, security audits, and infrastructure. Enterprise licenses and support contracts &mdash; a separate commercial track &mdash; go through <a href="mailto:licensing@superqr.in">licensing@superqr.in</a>.</sub>
+
+</div>
+
+### Free ways to help
+
+If donating isn't an option, the biggest boost you can give is **visibility**:
+
+<div align="center">
+
+<a href="https://github.com/sauravart/Super-QR">
+  <img src="https://img.shields.io/badge/%E2%98%85%20Star%20this%20repo-0B1220?style=for-the-badge&logo=github&logoColor=FFD700" alt="Star this repo" />
+</a>
+<a href="https://twitter.com/intent/tweet?text=Super%20QR%20%E2%80%94%20one%20printed%20QR%20that%20adapts%20to%20time%2C%20place%20%26%20person.%20Multi-tenant%20SaaS%20built%20for%20Indian%20SMBs%20and%20enterprises.&url=https%3A%2F%2Fgithub.com%2Fsauravart%2FSuper-QR&hashtags=DynamicQR%2CIndianSaaS%2COpenSource">
+  <img src="https://img.shields.io/badge/Share%20on-X%20(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" alt="Share on X" />
+</a>
+<a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2Fsauravart%2FSuper-QR">
+  <img src="https://img.shields.io/badge/Share%20on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Share on LinkedIn" />
+</a>
+
+</div>
+
+- **Star the repo** so it shows up in search and trends
+- **Share on X or LinkedIn** with your network — one post reaches more people than a month of SEO
+- **Open an issue** with your use-case — real feedback shapes the roadmap
+- **Write about it** — a blog post, a tweet thread, a case study
+- **Contribute a template** — got a vertical Super QR doesn't cover yet? File an issue with the fields you'd need
+
+---
+
 ## Screenshots
 
 Static design prototypes live at the repository root for reference:

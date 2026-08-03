@@ -1,0 +1,9 @@
+# .github/FUNDING.yml
+# Enables the "Sponsor" button in the GitHub repo header.
+# Activate the GitHub Sponsors profile at https://github.com/sponsors/accounts
+# for the `github:` line below to become clickable in production.
+
+github: [sauravart]
+buy_me_a_coffee: sauravart
+custom:
+  - "https://www.paypal.com/donate?business=sauravart@gmail.com&currency_code=USD&item_name=Support%20Super%20QR%20development"
