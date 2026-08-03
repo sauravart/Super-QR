@@ -516,7 +516,52 @@ The biggest boost you can give right now is **visibility**:
 
 ## Screenshots
 
-Static design prototypes live at the repository root for reference:
+### Authentication flow
+
+Enterprise-grade split-screen design across every auth surface — sign-in, sign-up, password recovery, MFA challenge, and post-login security settings. Consistent brand system (indigo `#4F3DF5`, ink-navy `#0B1220`, Space Grotesk display, IBM Plex Mono numeric), viewport-locked layouts with zero-scroll on 720px+ browsers, and India-first footer (Made in India · Mumbai data residency).
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="./docs/images/screenshots/login.png">
+        <img src="./docs/images/screenshots/login.png" alt="Login page" />
+      </a>
+      <br/><sub><b>Sign in</b> &mdash; SSO stubs (Google Workspace, Microsoft Entra, SAML), email + password with visibility toggle, testimonial + trust strip on the dark marketing panel.</sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="./docs/images/screenshots/register.png">
+        <img src="./docs/images/screenshots/register.png" alt="Register page" />
+      </a>
+      <br/><sub><b>Create workspace</b> &mdash; 2-column name + workspace fields, 4-segment live password-strength meter, DPDP consent checkbox, benefits list on the marketing panel.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <a href="./docs/images/screenshots/forgot-password.png">
+        <img src="./docs/images/screenshots/forgot-password.png" alt="Forgot password page" />
+      </a>
+      <br/><sub><b>Password recovery</b> &mdash; single email field, 30-min stateless reset token (bound to the current password hash so any reset invalidates old tokens), bank-grade encryption messaging on the panel.</sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="./docs/images/screenshots/two-factor.png">
+        <img src="./docs/images/screenshots/two-factor.png" alt="Two-factor authentication challenge" />
+      </a>
+      <br/><sub><b>2FA challenge</b> &mdash; 6-digit auto-advance input (paste-6-digits fills all boxes, auto-submits on completion), backup-code fallback toggle, RFC 6238 TOTP + SHA-256 hashing.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <a href="./docs/images/screenshots/security.png">
+        <img src="./docs/images/screenshots/security.png" alt="Security settings page" width="720" />
+      </a>
+      <br/><sub><b>Security settings</b> &mdash; 3-step enrolment wizard (Scan QR &rarr; Verify code &rarr; Save backup codes), server-generated QR PNG (no external image dependency), active sessions with revoke, plan-usage widget in the sidebar.</sub>
+    </td>
+  </tr>
+</table>
+
+### Design prototypes
+
+Static HTML prototypes at the repository root for reference:
 - [`super-qr-landing (2).html`](./super-qr-landing%20(2).html) — Landing page
 - [`super-qr-dashboard.html`](./super-qr-dashboard.html) — Dashboard
 - [`analytics.html`](./analytics.html), [`geo-analytics.html`](./geo-analytics.html) — Analytics views
