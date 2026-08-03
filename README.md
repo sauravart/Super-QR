@@ -2,6 +2,8 @@
 
 <img src="docs/images/hero.png" alt="Super QR — dynamic QR code that adapts to time, place & person" width="720" />
 
+<img src="docs/images/scan-activity.svg" alt="Live scan events flowing through Super QR" width="720" />
+
 # Super QR
 
 **Dynamic, multi-tenant QR-code SaaS built for Indian SMBs and enterprises.**
@@ -490,6 +492,26 @@ Static design prototypes live at the repository root for reference:
 - [`landing-builder.html`](./landing-builder.html) — Micro-site builder
 - [`billing.html`](./billing.html), [`ab-testing.html`](./ab-testing.html), [`integrations.html`](./integrations.html)
 - [`admin/`](./admin) — SaaS operator admin console prototype
+
+---
+
+## Activity
+
+<div align="center">
+
+<a href="https://github.com/sauravart">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sauravart&theme=react-dark&hide_border=true&custom_title=Super%20QR%20commit%20activity&area=true&line=4F3DF5&color=0B1220&point=12B76A" alt="Super QR commit activity" width="720" />
+</a>
+
+<br/>
+<br/>
+
+<a href="https://github.com/sauravart">
+  <img src="https://github-readme-stats.vercel.app/api?username=sauravart&show_icons=true&theme=default&hide_border=true&title_color=4F3DF5&icon_color=4F3DF5" alt="GitHub stats" height="160" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sauravart&theme=default&hide_border=true&stroke=FFFFFF&ring=4F3DF5&fire=F59E0B&currStreakLabel=4F3DF5" alt="Streak stats" height="160" />
+</a>
+
+</div>
 
 ---
 

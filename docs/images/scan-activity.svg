@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" width="1200" height="100" role="img" aria-label="Super QR scan activity animation">
+  <title>Scan events flowing through Super QR</title>
+
+  <defs>
+    <radialGradient id="dotGlowIndigo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%"   stop-color="#4F3DF5" stop-opacity="1"/>
+      <stop offset="60%"  stop-color="#4F3DF5" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#4F3DF5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="dotGlowMint" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%"   stop-color="#12B76A" stop-opacity="1"/>
+      <stop offset="60%"  stop-color="#12B76A" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#12B76A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Static dotted rails (subtle slate) -->
+  <g stroke="#94A3B8" stroke-width="1" stroke-dasharray="3 5" opacity="0.45" fill="none">
+    <line x1="20" y1="18" x2="1180" y2="18"/>
+    <line x1="20" y1="40" x2="1180" y2="40"/>
+    <line x1="20" y1="62" x2="1180" y2="62"/>
+    <line x1="20" y1="84" x2="1180" y2="84"/>
+  </g>
+
+  <!-- Endpoint pulse markers on the right (destination) -->
+  <g>
+    <circle cx="1180" cy="18" r="4" fill="#4F3DF5">
+      <animate attributeName="r" values="4;7;4" dur="3s" repeatCount="indefinite" begin="2s"/>
+      <animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite" begin="2s"/>
+    </circle>
+    <circle cx="1180" cy="40" r="4" fill="#12B76A">
+      <animate attributeName="r" values="4;7;4" dur="4s" repeatCount="indefinite" begin="3s"/>
+      <animate attributeName="opacity" values="1;0.4;1" dur="4s" repeatCount="indefinite" begin="3s"/>
+    </circle>
+    <circle cx="1180" cy="62" r="4" fill="#4F3DF5">
+      <animate attributeName="r" values="4;7;4" dur="3.5s" repeatCount="indefinite" begin="2.5s"/>
+      <animate attributeName="opacity" values="1;0.4;1" dur="3.5s" repeatCount="indefinite" begin="2.5s"/>
+    </circle>
+    <circle cx="1180" cy="84" r="4" fill="#12B76A">
+      <animate attributeName="r" values="4;7;4" dur="2.8s" repeatCount="indefinite" begin="1.8s"/>
+      <animate attributeName="opacity" values="1;0.4;1" dur="2.8s" repeatCount="indefinite" begin="1.8s"/>
+    </circle>
+  </g>
+
+  <!-- Traveling scan events (glowing dots left → right) -->
+  <g>
+    <circle cy="18" r="9" fill="url(#dotGlowIndigo)">
+      <animate attributeName="cx" from="20" to="1180" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cy="18" r="4" fill="#4F3DF5">
+      <animate attributeName="cx" from="20" to="1180" dur="3s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cy="40" r="9" fill="url(#dotGlowMint)">
+      <animate attributeName="cx" from="20" to="1180" dur="4s" repeatCount="indefinite" begin="0.7s"/>
+    </circle>
+    <circle cy="40" r="4" fill="#12B76A">
+      <animate attributeName="cx" from="20" to="1180" dur="4s" repeatCount="indefinite" begin="0.7s"/>
+    </circle>
+
+    <circle cy="62" r="9" fill="url(#dotGlowIndigo)">
+      <animate attributeName="cx" from="20" to="1180" dur="3.5s" repeatCount="indefinite" begin="1.4s"/>
+    </circle>
+    <circle cy="62" r="4" fill="#4F3DF5">
+      <animate attributeName="cx" from="20" to="1180" dur="3.5s" repeatCount="indefinite" begin="1.4s"/>
+    </circle>
+
+    <circle cy="84" r="9" fill="url(#dotGlowMint)">
+      <animate attributeName="cx" from="20" to="1180" dur="2.8s" repeatCount="indefinite" begin="0.3s"/>
+    </circle>
+    <circle cy="84" r="4" fill="#12B76A">
+      <animate attributeName="cx" from="20" to="1180" dur="2.8s" repeatCount="indefinite" begin="0.3s"/>
+    </circle>
+  </g>
+
+  <!-- QR finder-corner brackets at the origin (left) — subtle brand mark -->
+  <g stroke="#4F3DF5" stroke-width="2" fill="none" opacity="0.9">
+    <path d="M 4 12 L 4 4 L 12 4"/>
+    <path d="M 4 34 L 4 42 L 12 42"/>
+    <path d="M 4 56 L 4 68 L 12 68"/>
+    <path d="M 4 78 L 4 90 L 12 90"/>
+  </g>
+</svg>
