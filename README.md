@@ -559,17 +559,6 @@ Enterprise-grade split-screen design across every auth surface — sign-in, sign
   </tr>
 </table>
 
-### Design prototypes
-
-Static HTML prototypes at the repository root for reference:
-- [`super-qr-landing (2).html`](./super-qr-landing%20(2).html) — Landing page
-- [`super-qr-dashboard.html`](./super-qr-dashboard.html) — Dashboard
-- [`analytics.html`](./analytics.html), [`geo-analytics.html`](./geo-analytics.html) — Analytics views
-- [`styling-studio.html`](./styling-studio.html) — QR styling studio
-- [`landing-builder.html`](./landing-builder.html) — Micro-site builder
-- [`billing.html`](./billing.html), [`ab-testing.html`](./ab-testing.html), [`integrations.html`](./integrations.html)
-- [`admin/`](./admin) — SaaS operator admin console prototype
-
 ---
 
 ## Activity
