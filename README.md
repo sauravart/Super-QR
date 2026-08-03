@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/images/hero.png" alt="Super QR — dynamic QR code that adapts to time, place & person" width="320" />
+
 # Super QR
 
 **Dynamic, multi-tenant QR-code SaaS built for Indian SMBs and enterprises.**
