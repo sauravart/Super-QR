@@ -490,29 +490,7 @@ Super QR is developed and maintained on a **self-funded basis**. Every contribut
 - **Sprint 6** — Native iOS + Android apps, Shiprocket & Delhivery integrations, approval workflows, multi-region data residency
 - **Sprint 7** — SaaS operator admin panel (multi-tenant control plane, subprocessors, feature flags, execution days)
 
-If your organisation uses Super QR, or you'd like to see any of these ship sooner, please consider backing the project:
-
-<div align="center">
-
-<a href="https://github.com/sponsors/sauravart">
-  <img src="https://img.shields.io/badge/Sponsor%20on%20GitHub-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub" />
-</a>
-<a href="https://www.paypal.com/donate?business=sauravart@gmail.com&currency_code=USD&item_name=Support%20Super%20QR%20development">
-  <img src="https://img.shields.io/badge/Donate%20via%20PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white" alt="Donate via PayPal" />
-</a>
-<a href="https://buymeacoffee.com/sauravart">
-  <img src="https://img.shields.io/badge/Buy%20me%20a%20chai-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy me a chai" />
-</a>
-
-<br/>
-
-<sub>Sponsorship funds are ring-fenced for platform development, security audits, and infrastructure. Enterprise licenses and support contracts &mdash; a separate commercial track &mdash; go through <a href="mailto:licensing@superqr.in">licensing@superqr.in</a>.</sub>
-
-</div>
-
-### Free ways to help
-
-If donating isn't an option, the biggest boost you can give is **visibility**:
+The biggest boost you can give right now is **visibility**:
 
 <div align="center">
 
