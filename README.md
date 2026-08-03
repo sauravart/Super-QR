@@ -499,17 +499,30 @@ Static design prototypes live at the repository root for reference:
 
 <div align="center">
 
-<a href="https://github.com/sauravart">
+<a href="https://github.com/sauravart/Super-QR/commits/main">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=sauravart&theme=react-dark&hide_border=true&custom_title=Super%20QR%20commit%20activity&area=true&line=4F3DF5&color=0B1220&point=12B76A" alt="Super QR commit activity" width="720" />
 </a>
 
-<br/>
-<br/>
+<br/><br/>
 
-<a href="https://github.com/sauravart">
-  <img src="https://github-readme-stats.vercel.app/api?username=sauravart&show_icons=true&theme=default&hide_border=true&title_color=4F3DF5&icon_color=4F3DF5" alt="GitHub stats" height="160" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sauravart&theme=default&hide_border=true&stroke=FFFFFF&ring=4F3DF5&fire=F59E0B&currStreakLabel=4F3DF5" alt="Streak stats" height="160" />
+<a href="https://github.com/sauravart/Super-QR/stargazers">
+  <img src="https://img.shields.io/github/stars/sauravart/Super-QR?style=flat-square&color=4F3DF5&labelColor=0B1220&logo=github" alt="Stars" />
 </a>
+<a href="https://github.com/sauravart/Super-QR/network/members">
+  <img src="https://img.shields.io/github/forks/sauravart/Super-QR?style=flat-square&color=4F3DF5&labelColor=0B1220&logo=github" alt="Forks" />
+</a>
+<a href="https://github.com/sauravart/Super-QR/issues">
+  <img src="https://img.shields.io/github/issues/sauravart/Super-QR?style=flat-square&color=F59E0B&labelColor=0B1220" alt="Open issues" />
+</a>
+<a href="https://github.com/sauravart/Super-QR/pulls">
+  <img src="https://img.shields.io/github/issues-pr/sauravart/Super-QR?style=flat-square&color=12B76A&labelColor=0B1220" alt="Pull requests" />
+</a>
+<a href="https://github.com/sauravart/Super-QR/commits/main">
+  <img src="https://img.shields.io/github/last-commit/sauravart/Super-QR?style=flat-square&color=4F3DF5&labelColor=0B1220" alt="Last commit" />
+</a>
+<img src="https://img.shields.io/github/languages/top/sauravart/Super-QR?style=flat-square&color=239120&labelColor=0B1220" alt="Top language" />
+<img src="https://img.shields.io/github/languages/code-size/sauravart/Super-QR?style=flat-square&color=64748B&labelColor=0B1220" alt="Code size" />
+<img src="https://img.shields.io/github/repo-size/sauravart/Super-QR?style=flat-square&color=64748B&labelColor=0B1220" alt="Repo size" />
 
 </div>
 
