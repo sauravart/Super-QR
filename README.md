@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/images/hero.png" alt="Super QR — dynamic QR code that adapts to time, place & person" width="320" />
+<img src="docs/images/hero.png" alt="Super QR — dynamic QR code that adapts to time, place & person" width="720" />
 
 # Super QR
 
